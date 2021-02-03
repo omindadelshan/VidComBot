@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "Hello, \n\nThis is a Telegram Video Compressor BOT \n\n<b>Please Sent Me Any Telegram Big File I Will Compress IT To A Small File For You! 🥳</b> \n\n/help for more details... \n\nSupport Group :@I_Am_Only_One_1"
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -29,15 +29,15 @@ class Localisation:
     
     UPLOAD_START = "📤 Uploading 📤 \n"
     
-    COMPRESS_START = "📀 Trying to compress... 📀"
+    COMPRESS_START = "📀 Trying to Compress... 📀"
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} Seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}"
+    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}\n\nBy, @I_Am_Only_One_1 🔥"
 
-    COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
+    COMPRESS_PROGRESS = "⏳ S1 ETA: {}\n🚀 Progress: {}%"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     
@@ -55,11 +55,11 @@ class Localisation:
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already One Process going on. \n or \n A media already exists. \n  Please send /cancel to delete existing media. ⚠️"
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already One Process Going On. \n or \n A Media Already Exists! \n  Please Send /cancel To Delete Existing Media. ⚠️"
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Dx_Support"
+        "Hi am Video Compressor BOT \n\n1. Send Me Your Telegram Big Video File \n2. Reply The File - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group : @I_Am_Only_One_1"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
