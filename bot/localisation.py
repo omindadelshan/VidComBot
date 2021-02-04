@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compressor BOT \n\n<b>Please Sent Me Any Telegram Big File I Will Compress IT To A Small File For You! 🥳</b> \n\n/help for more details... \n\nSupport Group :@I_Am_Only_One_1"
+    START_TEXT = "Hello, \n\nI am Telegram Video Compressor BOT 🔥\n\n<b>Please Sent Me Any Telegram Big Video File I Will Compress It To A Small Video File For You! 🥳</b> \n\n/help for more details... \n\nSupport Group :@I_Am_Only_One_1"
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -55,11 +55,11 @@ class Localisation:
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already One Process Going On. \n or \n A Media Already Exists! \n  Please Send /cancel To Delete Existing Media. ⚠️"
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already One Process Going On! \nPlease Send /cancel To Delete Existing Media. ⚠️"
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi, I am Video Compressor BOT \n\n1. Send Me Your Telegram Big Video File \n2. Reply The File - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group : @I_Am_Only_One_1"
+        "Hi, I am Video Compressor BOT 🔥\n\n1. Send Me Your Telegram Big Video File \n2. Reply The File - /compress And Persentage \nFor Example:- <code>/compress 50</code> \n\nSupport Group :@I_Am_Only_One_1"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
