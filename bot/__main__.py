@@ -57,10 +57,10 @@ if __name__ == "__main__" :
     #
     app.set_parse_mode("html")
     #
-    # START command
+    # VSTART command
     incoming_start_message_handler = MessageHandler(
         incoming_start_message_f,
-        filters=Filters.command([Command.START]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.VSTART]) & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(incoming_start_message_handler)
     
@@ -71,10 +71,10 @@ if __name__ == "__main__" :
     )
     app.add_handler(incoming_compress_message_handler)
     
-    # CANCEL command
+    # VCANCEL command
     incoming_cancel_message_handler = MessageHandler(
         incoming_cancel_message_f,
-        filters=Filters.command([Command.CANCEL]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.VCANCEL]) & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(incoming_cancel_message_handler)
 
@@ -85,10 +85,10 @@ if __name__ == "__main__" :
     )
     app.add_handler(exec_message_handler)
     
-    # HELP command
+    # VHELP command
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=Filters.command([Command.HELP]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.VHELP]) & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(help_text_handler)
     
