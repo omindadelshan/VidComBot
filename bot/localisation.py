@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nI am Telegram Video Compressor BOT 🔥\n\n<b>Please Sent Me Any Telegram Big Video File I Will Compress It To A Small Video File For You! 🥳</b> \n\n/help for more details... \n\nSupport Group :@I_Am_Only_One_1"
+    VSTART_TEXT = "Hello, \n\nI am Telegram Video Compressor BOT 🔥\n\n<b>Please Sent Me Any Telegram Big Video File I Will Compress It To A Small Video File For You! 🥳</b> \n\n/help for more details... \n\nSupport Group :@I_Am_Only_One_1"
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -57,9 +57,9 @@ class Localisation:
     
     FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already One Process Going On! \nPlease Send /cancel To Delete Existing Media. ⚠️"
     
-    HELP_MESSAGE = get_config(
-        "STRINGS_HELP_MESSAGE",
-        "Hi, I am Video Compressor BOT 🔥\n\n1. Send Me Your Telegram Big Video File \n2. Reply The File - /compress And Persentage \nFor Example:- <code>/compress 50</code> \n\nSupport Group :@I_Am_Only_One_1"
+    VHELP_MESSAGE = get_config(
+        "STRINGS_VHELP_MESSAGE",
+        "Video Compresser Modual 🔥\n\n1. Send Me Your Telegram Big Video File \n2. Reply The File - /compress And Persentage \nFor Example:- <code>/compress 50</code> \n\nSupport Group :@slbotzone"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
